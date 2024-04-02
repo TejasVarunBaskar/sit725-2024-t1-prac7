@@ -1,0 +1,23 @@
+{
+  "name": "sit725-2024-t1-prac3",
+  "version": "1.0.0",
+  "description": "prac 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TejasVarunBaskar/sit725-2024-t1-prac3.git"
+  },
+  "author": "Tejas Varun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TejasVarunBaskar/sit725-2024-t1-prac3/issues"
+  },
+  "homepage": "https://github.com/TejasVarunBaskar/sit725-2024-t1-prac3#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
