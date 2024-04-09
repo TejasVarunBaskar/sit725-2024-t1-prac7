@@ -50,6 +50,13 @@ $(document).ready(function(){
     $('#formSubmit').click(()=>{
         formSubmitted();
     });
-    $('.modal').modal();
+    $('#modal').modal();
+
+    // Add event listener to the "Click Me" button
+    $('#clickMeButton').click(() => {
+        // Open the modal when the button is clicked
+        $('#modal').modal('open');
+    });
+
     getAllCats();
 });
