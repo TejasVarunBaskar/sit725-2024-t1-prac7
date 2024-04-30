@@ -36,7 +36,7 @@ describe('test POST api', function(){
             request.post({url: url, form: cat}, function (error, response, bodyString){
                 if (bodyString) {
                     let bodyObj = JSON.parse(bodyString);
-                    expect(bodyObj.message).to.equal('Get all cats successful');
+                    expect(bodyObj.message).to.equal('Success');
                 }
                 done();
             });
