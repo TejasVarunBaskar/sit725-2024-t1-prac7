@@ -29,7 +29,7 @@ io.on('connection', (socket) => {
     const interval = setInterval(() => {
         const randomNumber = Math.floor(Math.random() * 100);
         socket.emit('number', randomNumber);
-        //console.log(randomNumber);
+        console.log(randomNumber);
     }, 1000);
 
     socket.on('disconnect', () => { 
