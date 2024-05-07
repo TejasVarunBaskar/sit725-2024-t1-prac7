@@ -52,6 +52,12 @@ $(document).ready(function(){
     });
     $('#modal').modal();
 
+    let socket = io(); // Initialize Socket.io client connection
+
+    socket.on('number', (msg) => { // Listen for 'number' event
+        console.log('Random Number: ' + msg); // Log received random number to console
+    });
+
     // Add event listener to the "Click Me" button
     $('#clickMeButton').click(() => {
         // Open the modal when the button is clicked

@@ -19,6 +19,8 @@
   "homepage": "https://github.com/TejasVarunBaskar/sit725-2024-t1-prac3#readme",
   "dependencies": {
     "express": "^4.19.2",
-    "mongodb": "^6.5.0"
+    "http": "^0.0.1-security",
+    "mongodb": "^6.5.0",
+    "socket.io": "^4.7.5"
   }
 }
